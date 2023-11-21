@@ -121,6 +121,7 @@ api.unblock(data, callbackFunc);
 #### getState
 ```javascript
 var data = {
+    Key : 'YourMerchantAccount',
     OrderId : 'ORD00000000000000001'
 };
 api.getState(data, callbackFunc);
